@@ -1,7 +1,0 @@
-Copyright Dominic Baratta 2015, https://www.dombaratta.com
-
-Software belonging to others
-Bootstrap, etc.
-
-
-
