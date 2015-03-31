@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dominic Baratta</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>	
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/my-style.css">
+	<link rel="stylesheet" type="text/css" href="css/seperate.css">
+
+	<script src="js/jquery-1.6.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/scrollTo.jquery.js"></script>
+	<script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
+	<script src="js/navhide.js"></script>
+	<script src="js/jquery.scrollupformenu.js"></script>
+
+<!-- Hide navbar on scroll down... might remove/change this -->
+	<script>$(function() {          
+		$('.navbar').scrollUpMenu({
+			waitTime: '[data-scroll-speed]',
+			transitionTime: '[data-scroll-speed]',
+			menuCss: { 'position': 'fixed', 'top': '0'}
+		});
+		});
+	</script>
+
+<!-- Typewriter words -->
+	<script>
+  		$(function(){
+      		$(".element").typed({
+        		strings: ["Hello", "Hola","Bon Jour","Ciao","Ni Hao"],
+        		typeSpeed: 200
+      		});
+  		});
+	</script>
+
+
+<!-- This CSS doesn't work in seperate file for some reason?? -->
+	<style>
+	html{
+				height: 100%;
+			}
+			body{
+				min-height: 100%;
+				font-family: 'Lato', sans-serif;
+			}
+
+			#dom-name{
+				text-align: center;
+				font-size: 100px;
+				font-weight: 100;
+				padding-bottom: 20px;
+				padding-top: 10px;
+			}
+
+			#intro { 
+				background: url(images/ored.jpg) 50% 0 fixed; 
+				height: 100%;
+				min-height: 100%;  
+				margin: 0 auto; 
+			    width: 100%; 
+			    position: relative; 
+			    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			    padding: 100px 0;
+			}
+			#home { 
+				background: url(images/brain.jpg) 50% 0 fixed; 
+				height: auto;  
+				margin: 0 auto; 
+			    width: 100%; 
+			    position: relative; 
+			    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			    padding: 200px 0;
+			}
+			#about { 
+				background: url(images/forest-patrol.jpg) 50% 0 fixed; 
+				height: 100%;
+				margin: 0 auto; 
+			    width: 100%; 
+			    position: relative; 
+			    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+			    padding: 100px 0;
+			    color: #fff;
+			}
+
+			/* Non-essential demo stuff */
+			.hero-unit {
+				background-color: #fff;
+			    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+			}
+			.media-object { width: 64px; height: 64px; padding-bottom: 30px }
+	</style>
+</head>
+
+<body>
+
+	<div class="navbar navbar-fixed-top navbar-inverse">
+	  <div class="navbar-inner">
+	  	<div class="container">
+		    <a class="brand" href="#">Dominic Baratta</a>
+		    <ul class="nav">
+		      <li class="active"><a href="#">Cool Name!</a></li>
+		      <li><a href="#">About</a></li>
+		      <li><a href="#">Contact</a></li>
+		    </ul>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Section #1 -->
+	<section id="intro" data-speed="6" data-type="background">
+		<div class="container">
+			<div class="row-fluid">
+		        <div class="span4 text-center">
+		           <!--what is this? uncomment to see-->
+		        </div>
+		        <div class="span8 text-center">
+		          <!--what is this? uncomment to see-->
+		        </div>
+	    	</div>
+	    	<span id="greeting" class="element"></span>
+	    	<div class="hero-unit">
+	    		<h1 id="dom-name">Dominic Baratta</h1>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    	</div>
+	    </div>	
+	</section>
+
+	<!-- Section #2 -->
+	<section id="home" data-speed="4" data-type="background">
+		<div class="container">
+			<div class="row-fluid">
+		        <div class="span4 well">
+		          <h2>Interests</h2>
+		          	<p></p>
+		          <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+		        </div><!-- /.span4 -->
+		        <div class="span4 well">
+		          <h2>Projects</h2>
+		          	<p></p>
+		          <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+		        </div><!-- /.span4 -->
+		        <div class="span4 well">
+		          <h2>Experience</h2>
+		          	<p></p>
+		          <p><a class="btn btn-info" href="#">View details &raquo;</a></p>
+		        </div><!-- /.span4 -->
+	    	</div>
+	    </div>
+	</section>
+
+	<!-- Section #3 -->
+	<section id="about" data-speed="2" data-type="background">
+		<div class="container">
+			<div class="page-header">
+				<h1>Ways to contact me<small>If you're nasty...</small></h1>
+			</div>
+			<div class="row-fluid">
+		        <div class="span4">
+		          <h2>More Details</h2>
+		          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque cursus nisl consectetur et.</p>
+		          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque cursus nisl consectetur et.</p>
+		          <p><a class="btn btn-info">View details &raquo;</a></p>
+		        </div><!-- /.span4 -->
+		        <div class="span4">
+		         	<h2>Social Media</h2>
+		         	<div class="media">
+						<a class="pull-left" href="#">
+					    	<img class="social-roll" src="images/li-icon.png">
+						</a>
+						<div class="media-body">
+						    <h4 class="media-heading">LinkedIn</h4>
+						    
+						</div>
+					</div>
+		         	<div class="media">
+						<a class="pull-left" href="#">
+					    	<img class="social-roll" src="images/twtr-icon.png">
+						</a>
+						<div class="media-body">
+						    <h4 class="media-heading">Twitter</h4>
+						    
+						</div>
+					</div>
+		         	<div class="media">
+						<a class="pull-left" href="#">
+					    	<img class="social-roll" src="images/fb-icon2.png">
+						</a>
+						<div class="media-body">
+						    <h4 class="media-heading">Facebook</h4>
+						  
+						</div>
+					</div>
+		        </div><!-- /.span4 -->
+		        <div class="span4">
+		          <h2>Log In</h2>
+		          <form class="form">
+					  <div class="control-group">
+					    <label class="control-label" for="inputEmail">Email</label>
+					    <div class="controls">
+					      <input type="text" id="inputEmail" placeholder="Email">
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <label class="control-label" for="inputPassword">Password</label>
+					    <div class="controls">
+					      <input type="password" id="inputPassword" placeholder="Password">
+					    </div>
+					  </div>
+					  <div class="control-group">
+					    <div class="controls">
+					      <label class="checkbox">
+					        <input type="checkbox"> Remember me <br><br>
+					      </label>
+					      <button type="submit" class="btn btn-info">Sign in</button>
+					    </div>
+					  </div>
+					</form>
+		        </div><!-- /.span4 -->
+	    	</div>
+	    </div>
+	</section>
+
+</body>
+
+</html>
